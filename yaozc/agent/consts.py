@@ -1,0 +1,7 @@
+#代理状态
+NORMAL_STATUS = 1
+RELEASE_STATUS = 2
+STATUS_CHOICES=(
+    (NORMAL_STATUS,'正常'),
+    (RELEASE_STATUS,'解约'),
+)

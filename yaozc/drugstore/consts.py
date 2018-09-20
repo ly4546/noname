@@ -1,0 +1,55 @@
+#药店反馈
+HAVE_RECEIVED_GOODS = 1
+WAIT_RECEIVED_GOODS = 2
+DRUGSTORE_FEEDBACK_CHOICES =(
+    (HAVE_RECEIVED_GOODS,'已收货'),
+    (WAIT_RECEIVED_GOODS,'待收货'),
+)
+#配送商反馈
+DISTRIBUTOR_FEEDBACK_CHOICES =(
+    (),
+    (),
+    (),
+    (),
+)
+#提现状态
+NOT_APPLY_MONEY = 1
+APPLY_MONEY = 2
+ALREADY_PAID = 3
+IS_APPLY_MONEY_CHOICES =(
+    (NOT_APPLY_MONEY,'未提现'),
+    (APPLY_MONEY,'申请中'),
+    (ALREADY_PAID,'已打款'),
+)
+#支付方式
+ON_LINE = 1
+UNDER_LINE = 2
+PAY_METHOD_WAY =(
+    (ON_LINE,'线上'),
+    (UNDER_LINE,'线下'),
+)
+#订单状态
+WAIT_DELIVER_GOODS = 1
+WAITED_RECEIVE_GOODS = 2
+HAS_RECEIVED_GOODS = 3
+HAVE_CANCEL = 4
+ORDER_STATUS =(
+    (WAIT_DELIVER_GOODS,'待发货'),
+    (WAITED_RECEIVE_GOODS,"待收货"),
+    (HAS_RECEIVED_GOODS,"已收货"),
+    (HAVE_CANCEL,"已取消"),
+)
+#支付状态
+WAIT_PAYMENT = 1
+HAVE_PAID = 2
+REFUNDING = 3
+ALREADY_REFUND = 4
+PAY_STATUS =(
+    (WAIT_PAYMENT,"待支付"),
+    (HAVE_PAID,"已支付"),
+    (REFUNDING,"退款中"),
+    (ALREADY_REFUND,"已退款"),
+)
+
+
+
